@@ -1,0 +1,15 @@
+{
+    "title": "Loja Freeway | Loja Online Oficial da Marca de Calçados FREEWAY Easywear",
+    "layout": {
+        "product": {
+            "list": {
+                "attribute_widget_type": 1,
+                "show_related_products": true,
+                "show_availability_widget": true,
+                "show_favorite_widget": true,
+                "show_tags": true,
+                "show_campaign_tags": true
+            }
+        }
+    }
+}
