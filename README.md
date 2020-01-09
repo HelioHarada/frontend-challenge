@@ -16,6 +16,8 @@ Para acessar o design do componente [challenge.xd](https://github.com/shoppub/fr
 
 ## Instruções:
 
+Como resultado final esperamos que o canditado desenvolva o componente para exibição do produto na listagem da página de produtos consumindo o JSON aqui disponibilizado respeitando os contratos abaixo.
+
 O arquivo [settings.json](https://github.com/shoppub/frontend-challenge/blob/master/settings.json) possui todas as configurações gerais da loja, incluindo as configurações de layout.
 
 Abaixo temos a descrição de cada campo:
@@ -24,7 +26,7 @@ Abaixo temos a descrição de cada campo:
 - **layout**: Configurações de layouts da loja
 - - **product**: Configurações de layout referente aos componentes de produtos
 - - - **list**: Configurações de layout de listagem dos produtos
-- - - - **attribute_widget_type**: Tipo do widget de atributos dos produtos. As opções são: 1 para option e 2 para select (`int`)
+- - - - **attribute_widget_type**: Tipo do widget de atributos dos produtos. As opções são: 1 para radio e 2 para select option (`int`)
 - - - - **show_related_products**: Exibir os produtos relacionados (`bool`)
 - - - - **show_availability_widget**: Exibir a funcionalidade de quantidade no componente para adicionar ao carrinho (`bool`)
 - - - - **show_favorite_widget**: Exibir o botão de favorito (`bool`)
@@ -64,3 +66,17 @@ Abaixo temos a descrição de cada campo:
 - - - - **quantity**: Quantidade total de parcelas disponíveis (`int`)
 - - - - **installment_value**: Valor por parcela (`float`)
 - - - - **total_value**: Valor total do produto parcelado (`float`)
+
+**Observação:** Para servir os arquivos JSON simulando uma API REST, você pode utilizar um servidor HTTP, como por exemplo:
+
+```sh
+$ python -m SimpleHTTPServer
+```
+
+## Nossas expectativas
+
+Esperamos que a sua solução para o desafio tenha as seguintes características:
+
+- Qualidade para produção
+- Fácil manutenção
+- Extensível
